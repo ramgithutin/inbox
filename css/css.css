@@ -126,7 +126,7 @@ justify-content: center;
 /*main body*/
 .main_body{
     display: flex;
-    height: 70vx;   
+    height: 70vh;   
 }
 body{
     height: 100vh;
@@ -219,7 +219,7 @@ cursor: pointer;
 
 .emailrow:hover{
     border-top: 1px solid whitesmoke;
-    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 24);
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0,24);
 }
 
 .emailrow_message{
