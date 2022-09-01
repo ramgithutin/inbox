@@ -136,7 +136,7 @@ body {
 /*main body*/
 .mainBody {
 	display: flex;
-	height: 70vh;
+	height: 100vh;
 }
 
 body {
@@ -146,7 +146,7 @@ body {
 /*email list*/
 .emailList {
 	flex: 1;
-	overflow: scroll;
+	overflow-y: scroll;
 }
 
 .emailListSetting {
@@ -156,7 +156,7 @@ body {
 	justify-content: space-between;
 	border-bottom: 1px solid whitesmoke;
 	background-color: white;
-	z-index: 999;
+	z-index: 1;
 	padding: 8px;
 }
 
@@ -187,7 +187,7 @@ body {
 	display: flex;
 	background-color: white;
 	border-bottom: 1px solid whitesmoke;
-	z-index: 999;
+	z-index: 1;
 }
 
 .sectionSelected {
@@ -225,7 +225,7 @@ body {
 	align-items: center;
 	border-bottom: 1px solid whitesmoke;
 	cursor: pointer;
-	z-index: 999;
+	z-index: 1;
 }
 
 .emailRow:hover {
@@ -264,15 +264,35 @@ body {
 	font-weight: 400;
 	color: gray;
 }
-@media(max-width:768px){
-.emailRowMessage h4 {
-    width: 348px;
+@media(max-width:425px){
 
+
+
+.emailRowTitle {
+    font-size: 10px;
+}
+.emailRowMessage {
+	font-size: 10px;
+	flex:1;
+	width: 0px;
+}
+.section h4 {
+    font-size: 10px;
+}
+.material-symbols-outlined{
+	font-size: 10px;;
 }
 .sideBar {
 	display:none;
 }
 .emailList{
-	margin-left:20px;
+	margin-left:40px;
+
 }
+.emailRowTime {
+	font-size: 10px;
+}
+}
+@media {max-width: ;
+	
 }
