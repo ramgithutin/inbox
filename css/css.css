@@ -2,12 +2,16 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
-
-body {
 	font-family: arial, sans-serif;
 }
 
+.d-flex {
+	display: flex;
+	align-items: center;
+}
+.d-flex2{
+	display:flex;
+}
 
 /* header */
 .headerLeft img {
@@ -16,15 +20,8 @@ body {
 }
 
 .header {
-	display: flex;
-	align-items: center;
 	justify-content: space-between;
 	border-bottom: 2px solid whitesmoke;
-}
-
-.headerLeft {
-	display: flex;
-	align-items: center;
 }
 
 .headerLeft span {
@@ -33,9 +30,7 @@ body {
 }
 
 .headerMiddle {
-	display: flex;
 	flex: 0.8;
-	align-items: center;
 	background-color: whitesmoke;
 	border-radius: 5px;
 
@@ -74,15 +69,11 @@ body {
 }
 
 .sideBarCompose {
-	margin-top: 15px;
-	margin-left: 10px;
-	margin-bottom: 15px;
+	margin:15px 0px 15px 10px;
 	color: gray;
 	padding: 15px;
 	border-radius: 30px;
 	background-color: white;
-	display: flex;
-	align-items: center;
 	cursor: pointer;
 	border: none;
 	box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
@@ -93,8 +84,6 @@ body {
 }
 
 .sideBarOption {
-	display: flex;
-	align-items: center;
 	padding: 13px;
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
@@ -119,38 +108,22 @@ body {
 	font-weight: 800;
 }
 
-.sideBarFooter {
-	display: flex;
-	justify-content: center;
-}
-
 .sideBarFooterIcons .material {
 	margin: 7px;
 	cursor: pointer;
 }
 
 /*main body*/
-.mainBody {
-	display: flex;
-}
-
 /*email list*/
 .emailList {
 	flex: 1;
 }
 
 .emailListSetting {
-	display: flex;
 	justify-content: space-between;
 	border-bottom: 1px solid whitesmoke;
 	background-color: white;
-	z-index: 1;
 	padding: 8px;
-}
-
-.emailListSettingLeft {
-	display: flex;
-	align-items: center;
 }
 
 .emailListSettings .material {
@@ -159,8 +132,6 @@ body {
 }
 
 .section {
-	display: flex;
-	align-items: center;
 	border-bottom-width: 2px;
 	padding: 15px;
 	min-width: 200px;
@@ -170,10 +141,8 @@ body {
 }
 
 .emailListSections {
-	display: flex;
 	background-color: white;
 	border-bottom: 1px solid whitesmoke;
-	z-index: 1;
 }
 
 .sectionSelected {
@@ -193,18 +162,11 @@ body {
 	margin-left: 15px;
 }
 
-.emailRowOptions {
-	display: flex;
-	align-items: center;
-}
-
 .emailRowOptions .material {
 	margin: 5px;
 }
 
 .emailRow {
-	display: flex;
-	align-items: center;
 	border-bottom: 1px solid whitesmoke;
 	cursor: pointer;
 	padding: 5px;
@@ -216,9 +178,7 @@ body {
 }
 
 .emailRowMessage {
-	display: flex;
 	flex: 0.8;
-	align-items: center;
 	font-size: 13px;
 }
 
@@ -226,8 +186,7 @@ body {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	padding-left: 5px;
-	padding-right: 5px;
+	padding:0px 5px 0px 5px;
 }
 
 .emailRowTitle {
